@@ -75,6 +75,35 @@ div form .signup-button{
 }
 
 .rooms{
-    width: 100%;
     color:#fff;
+}
+
+.room-display{
+    border: 3px solid black;
+    text-align: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background: #fff;
+    color: #178553;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.join-button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #178553;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #178553;
+}
+
+.join-button:hover{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    border: 1px solid #178553;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #178553;
+    font-size: 17px;
 }

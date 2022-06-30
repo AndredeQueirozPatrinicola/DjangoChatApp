@@ -9,13 +9,13 @@
     <h1 class="logo-main">Rooms</h1>
 </div>
 
-<div class="d-flex flex-wrap align-items-center rooms">
+<div class="d-flex flex-wrap align-items-center justify-content-around rooms">
     {% for room in rooms %}
-        <div class="rooms card-body">
-            <div>
+        <div class="rooms">
+            <div class="room-display">
                 <h2>{{ room.name }}</h2>
 
-                <a href="{% url 'room' room.slug %}">Join</a>
+                <a href="{% url 'room' room.slug %}" class="join-button">Join</a>
             </div>
         </div>
     {% endfor %}
