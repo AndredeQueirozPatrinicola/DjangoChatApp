@@ -55,23 +55,10 @@ body{
 }
 
 .logo-main{
-    margin-top: 120px;
+    margin-top: 90px;
     font-size: 60px;
     color: #fff;
-}
-
-form input{
-    margin: 1000px;
-    width: 250px;
-    border-radius: 10px;
-    padding: 5px;
-  }
-
-div form .signup-button{
-    border: 1px solid #0c4b2f;
-    background-color: #0c4b2f;
-    padding: 12px;
-    border-radius: 15px;
+    margin-bottom: 30px;
 }
 
 .rooms{
@@ -105,5 +92,27 @@ div form .signup-button{
     padding: 5px 20px;
     border-radius: 10px;
     background-color: #178553;
-    font-size: 17px;
+}
+
+.login-button{
+    width: 100px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: #0c4b2f;
+    border: 1px solid #0c4b2f;
+    color: #fff;
+    height: 35px;
+}
+
+.signup-input{
+    padding: 4px;
+    margin: 8px;
+    width: 250px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.label-login{
+    color: #fff;
+    margin-left: 10px;
 }

@@ -8,9 +8,9 @@
 <div class="d-flex align-items-center justify-content-center flex-column">
     <h1 class="logo-main">Log in</h1>
     <form class="d-flex justify-content-center flex-column form-signup" method="post" action=".">{% csrf_token %}
-        <label class="justify-content-start">Username:</label>
+        <label class="justify-content-start label-login">Username:</label>
         <input type="text" name="username" class="signup-input">
-        <label>Password:</label>
+        <label class="label-login">Password:</label>
         <input type="password" name="password" class="signup-input">
     
     {% if form.errors %}
@@ -23,7 +23,7 @@
         {% endfor %}
     {% endif %}
 
-    <button style="margin-top: 10px;">Log in</button>
+    <button class="login-button">Log in</button>
     </form>
 </div>
 
