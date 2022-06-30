@@ -1,0 +1,80 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: #178553;
+}
+
+.navigation{
+    background-color: #0c4b2f;
+    height: 90px;
+}
+
+.chat-title{
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+.signup-icon{
+    border: 1px solid #178553;
+    background-color: #178553;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.login-icon{
+    margin-top: 12px;
+}
+
+.chat-title:hover{
+    margin-left: 50px;
+    font-size: 36px;
+    color: rgb(180, 180, 180);
+}
+
+.login-icon, .signup-icon{
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.login-icon:hover, .signup-icon:hover{
+    margin-right: 50px;
+    font-size: 26px;
+    color: rgb(180, 180, 180);
+}
+
+.chat-title, .login-icon, .signup-icon{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: rgb(255, 255, 255);
+}
+
+.div-centraliza{
+    margin:0;
+}
+
+.logo-main{
+    margin-top: 120px;
+    font-size: 60px;
+    color: #fff;
+}
+
+form input{
+    margin: 1000px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+div form .signup-button{
+    border: 1px solid #0c4b2f;
+    background-color: #0c4b2f;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.rooms{
+    width: 100%;
+    color:#fff;
+}
